@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - claude/text-game-pc-android-aUeLY
+      - claude/relaxed-hypatia-6yr72r
       - main
   workflow_dispatch:
 
