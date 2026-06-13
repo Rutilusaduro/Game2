@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:pages": "vite build --base=/GameDev/",
+    "build:pages": "VITE_BASE=/game2/ vite build",
     "preview": "vite preview",
     "cap:sync": "npx cap sync",
     "lint": "eslint src/",
